@@ -11,4 +11,7 @@ def pal_check(check_str):
     return res
 
 ent_str = 'лепсспел'
-print(pal_check(ent_str))
+print(ent_str, pal_check(ent_str))
+
+ent_str = 'helloworld'
+print(ent_str, pal_check(ent_str))
